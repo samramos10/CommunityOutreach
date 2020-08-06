@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: rgb(148, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style the content */
+  .content {
+    background-color: rgb(221,221,221,.5);
+    padding: 10px;
+    height: 140px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 15px;
+  }
+  
+  .content2 {
+    margin-right:10px;
+    margin-left:10px;
+    border-left: black;
+    border-left: 5px;
+  }
+  .head1 {
+    text-align:center;
+
+  }
+  
+  .para1 {
+    text-align:center;
+  }
+  
+  .para2 {
+    width:75%;
+    height:300px;
+    font-size:x-large;
+    font-family:'abel';
+    border: double 4px rgb(148, 179, 179);
+    border-radius: 25px;
+    margin: 5px;
+  }
+
+  .head2 {
+    margin-left: 5px;
+  }
+  
+  .head3 {
+    text-align:center;
+    font-size: 500px;
+    color:rgb(148, 179, 179);
+    text-shadow:2px 2px 5px black;
+  }
+
+  .footer {
+    text-align:center;
+  }
+
+  a:visited {
+    color: purple
+  }
+
+  .commmunity-helpinghands.jpg {
+    border-radius: 25px;
+  }
